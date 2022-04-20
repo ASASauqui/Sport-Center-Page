@@ -1,0 +1,73 @@
+/* ----------------Container---------------- */
+
+.TeamContainer{
+    width: 80%;
+    height: auto;
+    text-align: center;
+    padding: 10px 5% 10px 5%;
+    margin-top: 30px;
+    margin-bottom: 60px;
+
+    box-shadow:
+        -7px -7px 20px 0px #0002,
+        -4px -4px 5px 0px #0002,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #0002,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #0002,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
+
+.TeamContainer h1{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/* ----------------Botones---------------- */
+.botonTeam {
+    font-size: 17px;
+    font-family: sans-serif;
+    background-color:  #ebebeb;
+    color: rgb(0, 0, 0);
+    padding: 13px 0px;
+    width: 200px;
+    height: auto;
+    text-align: center;
+    display: inline-block;
+    transition: ease-in all 0.5s;
+    border-radius: 10px;
+
+    margin-bottom: 20px;
+
+
+    box-shadow:
+        -7px -7px 20px 0px #0002,
+        -4px -4px 5px 0px #0002,
+        7px 7px 20px 0px #0002,
+        4px 4px 5px 0px #0001,
+        inset 0px 0px 0px 0px #0002,
+        inset 0px 0px 0px 0px #0001,
+        inset 0px 0px 0px 0px #0002,        inset 0px 0px 0px 0px #0001;
+    transition:box-shadow 0.6s cubic-bezier(.79,.21,.06,.81);
+}
+
+.botonTeam:hover {
+    background: #969696;
+    color: #fff;
+    transition: ease-in all 0.5s;
+    border-radius: 25px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.botonTeam img{
+    width: 40%;
+}
+
+.botonTeam:hover img{
+    transition: ease-in all 0.5s;
+    width: 45%;
+}
